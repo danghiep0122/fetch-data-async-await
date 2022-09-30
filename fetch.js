@@ -1,3 +1,5 @@
+const [data, setData] = useState(null)
+
 useEffect(() => {
     const url = 'https://api.mockaroo.com/api/26f073c0?count=20&key=0f870f80'
 
